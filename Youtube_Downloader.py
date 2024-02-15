@@ -33,7 +33,7 @@ ytTitle = tk.Label(root, image=ytLogo)
 ytTitle.place(relx=0.5, rely=0.25, anchor="center")
 
 # Youtube Link
-ytLabel = tk.Label(root, text="Youtube Link")  # Corrected typo in variable name
+ytLabel = tk.Label(root, text="Youtube Link")  
 ytLabel.place(x=25, y=310)
 
 ytLink = tk.Entry(root, width=60)
